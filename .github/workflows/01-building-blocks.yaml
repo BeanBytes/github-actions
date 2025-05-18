@@ -13,6 +13,7 @@ jobs:
     - name: goodbye step
       run: |
         echo "I will not fail"
+        exit 0
     - name: say-goodbye
       run: echo "Goodbye"   
   
